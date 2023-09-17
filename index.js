@@ -84,6 +84,8 @@ function setProgressBar (e){
     music.currentTime = (clickX/width)* music.duration
 }
 
+
+
 playBtn.addEventListener('click', togglePlay)
 prevBtn.addEventListener('click', ()=> changeMusic(-1))
 nextBtn.addEventListener('click', ()=> changeMusic(1))
@@ -93,3 +95,10 @@ playerProgress.addEventListener('click', setProgressBar)
 nextBtn.addEventListener('click', console.log("oke"))
 
 loadMusic(songs[0])
+
+$(document).ready(function () {
+    // Hide the loading screen when the page is fully loaded
+    $(window).on('load', function () {
+        $('#loading-screen').fadeOut('slow');
+    });
+});
