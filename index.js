@@ -28,7 +28,7 @@ const songs = [
     {
         path:'assets/Faith.mp3',
         displayNmae:'Faith',
-        cover:'assets/kobo2.jpg',
+        cover:'assets/Kobo2.jpg',
         artist:'Kobo Kanaeru'
     }
 ]
