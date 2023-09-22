@@ -26,11 +26,23 @@ const songs = [
         artist:'Mosawo'
     },
     {
+        path:'assets/gyutto.mp3',
+        displayNmae:'Gyutto',
+        cover:'assets/gyutto.jpg',
+        artist:'Mosawo'
+    },
+    {
         path:'assets/Faith.mp3',
         displayNmae:'Faith',
         cover:'assets/Kobo2.jpg',
         artist:'Kobo Kanaeru'
-    }
+    },
+    {
+        path:'assets/paun.mp3',
+        displayNmae:'不可幸力',
+        cover:'assets/vaundy.jpg',
+        artist:'Vaundy'
+    },
 ]
 
 let musicIndex = 0;
