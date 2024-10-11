@@ -43,6 +43,12 @@ const songs = [
         cover:'assets/vaundy.jpg',
         artist:'Vaundy'
     },
+    {
+        path:'assets/metric.mp3',
+        displayNmae:'Lost kitten',
+        cover:'assets/metrik.jpg',
+        artist:'Matric'
+    },
 ]
 
 let musicIndex = 0;
